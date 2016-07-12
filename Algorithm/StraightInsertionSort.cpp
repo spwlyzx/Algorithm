@@ -6,6 +6,8 @@
 //  Copyright © 2016年 孙培文. All rights reserved.
 //
 
+#include "Definition.h"
+
 void straightInsertionSort(int toSort[], int length){
     for (int i = 1; i < length; i++) {
         int temp = toSort[i];

@@ -6,7 +6,7 @@
 //  Copyright © 2016年 孙培文. All rights reserved.
 //
 
-#define INFINITY 2147483647;
+#include "Definition.h"
 
 void merge(int toSort[], int low, int mid, int high);
 void mergeSortStep(int toSort[], int low, int high);
@@ -23,11 +23,11 @@ void merge(int toSort[], int low, int mid, int high){
     for (int i = 0; i < n1; i++) {
         L[i] = toSort[low + i];
     }
-    L[n1] = INFINITY;
+    L[n1] = MAXIMUM;
     for (int i = 0; i < n2; i++) {
         R[i] = toSort[mid + 1 + i];
     }
-    R[n2] = INFINITY;
+    R[n2] = MAXIMUM;
     for (int i = 0, j = 0; i + j < high - low + 1;) {
         if(L[i] < R[j]){
             toSort[low + i + j] = L[i];

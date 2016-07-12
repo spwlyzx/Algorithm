@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6531EF401D34844400539599 /* MergeMaximumSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6531EF3E1D34844400539599 /* MergeMaximumSubarray.cpp */; };
+		6531EF441D348DEE00539599 /* LinerMaximumSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6531EF421D348DEE00539599 /* LinerMaximumSubarray.cpp */; };
 		658706E31CD08B29002FE2C6 /* StraightInsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 658706E11CD08B29002FE2C6 /* StraightInsertionSort.cpp */; };
 		658706E51CD08B6C002FE2C6 /* StraightSelectSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 658706E41CD08B6C002FE2C6 /* StraightSelectSort.cpp */; };
 		65A0BDE21CD09C0A003323B9 /* mainTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A0BDE01CD09C0A003323B9 /* mainTest.cpp */; };
@@ -26,6 +28,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6531EF3E1D34844400539599 /* MergeMaximumSubarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeMaximumSubarray.cpp; sourceTree = "<group>"; };
+		6531EF411D348BC100539599 /* Definition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Definition.h; sourceTree = "<group>"; };
+		6531EF421D348DEE00539599 /* LinerMaximumSubarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinerMaximumSubarray.cpp; sourceTree = "<group>"; };
 		654A94EA1CD089A000364622 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		658706E11CD08B29002FE2C6 /* StraightInsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StraightInsertionSort.cpp; sourceTree = "<group>"; };
 		658706E41CD08B6C002FE2C6 /* StraightSelectSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StraightSelectSort.cpp; sourceTree = "<group>"; };
@@ -44,6 +49,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6531EF3C1D3481B100539599 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				658706E11CD08B29002FE2C6 /* StraightInsertionSort.cpp */,
+				658706E41CD08B6C002FE2C6 /* StraightSelectSort.cpp */,
+				65A0BDE31CD0A796003323B9 /* MergeSort.cpp */,
+			);
+			name = Sort;
+			sourceTree = "<group>";
+		};
+		6531EF3D1D3481C800539599 /* MaximumSubarray */ = {
+			isa = PBXGroup;
+			children = (
+				6531EF3E1D34844400539599 /* MergeMaximumSubarray.cpp */,
+				6531EF421D348DEE00539599 /* LinerMaximumSubarray.cpp */,
+			);
+			name = MaximumSubarray;
+			sourceTree = "<group>";
+		};
 		654A94E11CD089A000364622 = {
 			isa = PBXGroup;
 			children = (
@@ -63,10 +87,10 @@
 		654A94EC1CD089A000364622 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				6531EF411D348BC100539599 /* Definition.h */,
 				65A0BDE01CD09C0A003323B9 /* mainTest.cpp */,
-				658706E11CD08B29002FE2C6 /* StraightInsertionSort.cpp */,
-				658706E41CD08B6C002FE2C6 /* StraightSelectSort.cpp */,
-				65A0BDE31CD0A796003323B9 /* MergeSort.cpp */,
+				6531EF3D1D3481C800539599 /* MaximumSubarray */,
+				6531EF3C1D3481B100539599 /* Sort */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -129,7 +153,9 @@
 			files = (
 				65A0BDE21CD09C0A003323B9 /* mainTest.cpp in Sources */,
 				658706E31CD08B29002FE2C6 /* StraightInsertionSort.cpp in Sources */,
+				6531EF441D348DEE00539599 /* LinerMaximumSubarray.cpp in Sources */,
 				65A0BDE41CD0A796003323B9 /* MergeSort.cpp in Sources */,
+				6531EF401D34844400539599 /* MergeMaximumSubarray.cpp in Sources */,
 				658706E51CD08B6C002FE2C6 /* StraightSelectSort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

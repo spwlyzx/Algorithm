@@ -7,16 +7,17 @@
 //
 
 #include <iostream>
+#include "Definition.h"
+
+MaximumSubarray MergeMaximumSubarray(int array[], int length);
 
 void straightInsertionSort(int toSort[], int length);
 void straightSelectSort(int toSort[], int length);
 void mergeSort(int toSort[], int length);
 
 int main(int argc, const char * argv[]) {
-    int test[] = {2,3,1,2,4,6,2,7,2,1,4,8,5,32,15,2435,223,353,2345,3,56,234,23,3456,7,568,678,456,3,34};
-    mergeSort(test, sizeof(test)/sizeof(test[0]));
-    for (int i = 0; i < sizeof(test)/sizeof(test[0]); i++) {
-        std::cout<<test[i]<<",";
-    }
+    int test[] = {13,-3,-25,20,-3,-16,-23,18,20,-7,12,-5,-22,15,-4,7};
+    MaximumSubarray ms = LinerMaximumSubarray(test, sizeof(test)/sizeof(test[0]));
+    std::cout<<ms.sum<<";"<<ms.low<<";"<<ms.high;
     return 0;
 }
