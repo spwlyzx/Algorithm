@@ -6,7 +6,7 @@
 //  Copyright © 2016年 孙培文. All rights reserved.
 //
 
-#include "Definition.h"
+#include "MaximumSubarray.h"
 
 MaximumSubarray Merge(int array[], int low, int high);
 MaximumSubarray midMaximumSubarray(int array[], int low, int high);

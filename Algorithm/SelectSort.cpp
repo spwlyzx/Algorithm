@@ -6,9 +6,9 @@
 //  Copyright © 2016年 孙培文. All rights reserved.
 //
 
-#include "Definition.h"
+#include "Sort.h"
 
-void straightSelectSort(int toSort[], int length){
+void selectSort(unsigned int toSort[], int length){
     for (int i = 0; i < length - 1; i++) {
         int min = i;
         for(int j = i + 1; j < length; j++){

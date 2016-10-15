@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ProduceRandomData.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>654A94E91CD089A000364622</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>65B2BA771DB21CCB00429171</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -6,20 +6,20 @@
 //  Copyright © 2016年 孙培文. All rights reserved.
 //
 
-#include "Definition.h"
+#include "Sort.h"
 
-void merge(int toSort[], int low, int mid, int high);
-void mergeSortStep(int toSort[], int low, int high);
+void merge(unsigned int toSort[], int low, int mid, int high);
+void mergeSortStep(unsigned int toSort[], int low, int high);
 
-void mergeSort(int toSort[], int length){
+void mergeSort(unsigned int toSort[], int length){
     mergeSortStep(toSort, 0, length - 1);
 }
 
-void merge(int toSort[], int low, int mid, int high){
+void merge(unsigned int toSort[], int low, int mid, int high){
     int n1 = mid - low + 1;
     int n2 = high - mid;
-    int *L = new int[n1 + 1];
-    int *R = new int[n2 + 1];
+    unsigned int *L = new unsigned int[n1 + 1];
+    unsigned int *R = new unsigned int[n2 + 1];
     for (int i = 0; i < n1; i++) {
         L[i] = toSort[low + i];
     }
@@ -41,7 +41,7 @@ void merge(int toSort[], int low, int mid, int high){
     delete [] R;
 }
 
-void mergeSortStep(int toSort[], int low, int high){
+void mergeSortStep(unsigned int toSort[], int low, int high){
     if(high > low){
         mergeSortStep(toSort, low, (low + high)/2);
         mergeSortStep(toSort, (low + high)/2 + 1, high);

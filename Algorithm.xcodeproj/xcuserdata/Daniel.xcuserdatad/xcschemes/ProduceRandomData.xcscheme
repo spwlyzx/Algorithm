@@ -14,20 +14,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "654A94E91CD089A000364622"
-               BuildableName = "Algorithm"
-               BlueprintName = "Algorithm"
-               ReferencedContainer = "container:Algorithm.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "65B2BA771DB21CCB00429171"
                BuildableName = "ProduceRandomData"
                BlueprintName = "ProduceRandomData"
@@ -46,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "654A94E91CD089A000364622"
-            BuildableName = "Algorithm"
-            BlueprintName = "Algorithm"
+            BlueprintIdentifier = "65B2BA771DB21CCB00429171"
+            BuildableName = "ProduceRandomData"
+            BlueprintName = "ProduceRandomData"
             ReferencedContainer = "container:Algorithm.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -69,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "654A94E91CD089A000364622"
-            BuildableName = "Algorithm"
-            BlueprintName = "Algorithm"
+            BlueprintIdentifier = "65B2BA771DB21CCB00429171"
+            BuildableName = "ProduceRandomData"
+            BlueprintName = "ProduceRandomData"
             ReferencedContainer = "container:Algorithm.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -88,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "654A94E91CD089A000364622"
-            BuildableName = "Algorithm"
-            BlueprintName = "Algorithm"
+            BlueprintIdentifier = "65B2BA771DB21CCB00429171"
+            BuildableName = "ProduceRandomData"
+            BlueprintName = "ProduceRandomData"
             ReferencedContainer = "container:Algorithm.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
