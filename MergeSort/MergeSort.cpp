@@ -1,8 +1,8 @@
 //
 //  MergeSort.cpp
-//  Algorithm
+//  MergeSort
 //
-//  Created by 孙培文 on 16/4/27.
+//  Created by 孙培文 on 2016/10/15.
 //  Copyright © 2016年 孙培文. All rights reserved.
 //
 
@@ -46,5 +46,18 @@ void mergeSortStep(unsigned int toSort[], int low, int high){
         mergeSortStep(toSort, low, (low + high)/2);
         mergeSortStep(toSort, (low + high)/2 + 1, high);
         merge(toSort, low, (low + high)/2, high);
+    }
+}
+
+int main(){
+    for(int i=0;i<NUMOFDATE;i++){
+        readFromFile(NAMEOFDATA[i], toSorts[i], SIZEOFDATA[i]);
+        clock_t  clockBegin, clockEnd;
+        clockBegin = clock();
+        mergeSort( toSorts[i], SIZEOFDATA[i]);
+        clockEnd = clock();
+        clock_t timepass = clockEnd - clockBegin;
+        double clocksPerSec = CLOCKS_PER_SEC;
+        cout<<"第"<<i<<"组数据用时"<<(timepass/clocksPerSec*1000)<<"ms"<<endl;
     }
 }
