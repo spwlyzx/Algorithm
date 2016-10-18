@@ -16,11 +16,11 @@
 
 const unsigned int MAXIMUM = 4294967295;//最大值
 const unsigned int MINIMUM = 0;//最小值
-//const unsigned int NUMOFDATE = 9;//测试数据的组数 // 不加入10^9
-const unsigned int NUMOFDATE = 10; // 加入10^9时
+const unsigned int NUMOFDATE = 9;//测试数据的组数 // 不加入10^9
+//const unsigned int NUMOFDATE = 10; // 加入10^9时
 
 //每组数组的个数
-const int SIZEOFDATA[10]={
+const int SIZEOFDATA[9]={
     10
     ,100
     ,1000
@@ -30,10 +30,10 @@ const int SIZEOFDATA[10]={
     ,10000000
     ,100000000
     ,200000000
-    ,1000000000    // 加入10^9时
+//    ,1000000000    // 加入10^9时
 };
 
-const std::string NAMEOFDATA[10]={
+const std::string NAMEOFDATA[9]={
     "10.dat"
     ,"100.dat"
     ,"1000.dat"
@@ -43,7 +43,7 @@ const std::string NAMEOFDATA[10]={
     ,"10000000.dat"
     ,"100000000.dat"
     ,"200000000.dat"
-    ,"1000000000.dat"    // 加入10^9时
+//    ,"1000000000.dat"    // 加入10^9时
 };
 
 #endif /* Parameters_h */

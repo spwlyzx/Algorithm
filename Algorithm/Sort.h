@@ -23,9 +23,9 @@ unsigned int toSort5[1000000] = {0};
 unsigned int toSort6[10000000] = {0};
 unsigned int toSort7[100000000] = {0};
 unsigned int toSort8[200000000] = {0};
-unsigned int toSort9[1000000000] = {0};    // 加入10^9时
+//unsigned int toSort9[1000000000] = {0};    // 加入10^9时
 
-unsigned int* toSorts[10]={
+unsigned int* toSorts[9]={
     toSort0
     ,toSort1
     ,toSort2
@@ -35,7 +35,7 @@ unsigned int* toSorts[10]={
     ,toSort6
     ,toSort7
     ,toSort8
-    ,toSort9    // 加入10^9时
+//    ,toSort9    // 加入10^9时
 };
 
 extern void readFromFile(string name, unsigned int towrite[], int length);

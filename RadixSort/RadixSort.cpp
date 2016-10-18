@@ -8,7 +8,7 @@
 
 #include "Sort.h"
 
-const int d = 16;
+const int d = 65536;
 
 unsigned int temp0[10] = {0};
 unsigned int temp1[100] = {0};
@@ -19,9 +19,9 @@ unsigned int temp5[1000000] = {0};
 unsigned int temp6[10000000] = {0};
 unsigned int temp7[100000000] = {0};
 unsigned int temp8[200000000] = {0};
-unsigned int temp9[1000000000] = {0};    // 加入10^9时
+//unsigned int temp9[1000000000] = {0};    // 加入10^9时
 
-unsigned int* temps[10]={
+unsigned int* temps[9]={
     temp0
     ,temp1
     ,temp2
@@ -31,7 +31,7 @@ unsigned int* temps[10]={
     ,temp6
     ,temp7
     ,temp8
-    ,temp9    // 加入10^9时
+//    ,temp9    // 加入10^9时
 };
 
 void radixSort(unsigned int toSort[], int length){
